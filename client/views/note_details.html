@@ -1,0 +1,29 @@
+<div ng-init="getOsce()">
+    <h1>{{osce.title}}</h1>
+    <h3 class="navigation">{{osce.category}}</h3>
+
+    <div class="container">
+
+        <div class="col-100">
+            <p3>{{osce.description}}</p3>
+        </div>
+
+        <div class="col-100">
+            <h4>Pt</h4>
+        </div>
+
+        <div class="col-25">
+            <label>Name</label>
+        </div>
+        <div class="col-75">
+            <p2>{{osce.name}}</p2>
+        </div>
+
+        <div class="navigation">
+            <a href="#/osces/edit/{{osce._id}}">Edit</a>
+            <a href="#" ng-click="removeOsce(osce._id)">Delete</a>
+            <a href="#/osces">Return Home</a>
+        </div>
+
+    </div>
+</div>

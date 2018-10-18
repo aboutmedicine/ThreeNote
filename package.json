@@ -1,0 +1,20 @@
+{
+    "name": "notes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "body-parser": "*",
+        "express": "*",
+        "mongodb": "^3.1.6",
+        "mongoose": "*"
+    },
+    "author": "Reuben Schmidt",
+    "license": "ISC",
+    "engines": {
+        "node": "8.11.4"
+    }
+}

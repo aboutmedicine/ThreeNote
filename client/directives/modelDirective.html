@@ -1,0 +1,12 @@
+<p>Add notes to this model.</p>
+
+<div ng-init="getNotes()">
+    <div ng-repeat="note in notes">
+        <p>{{note.create_date}}</p>
+    </div>
+</div>
+
+<button class="submitbutton" ng-click="noteMode()">Note</button>
+
+<div id="noteList"></div>
+
